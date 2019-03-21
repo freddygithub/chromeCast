@@ -6,10 +6,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-  <title>Echelon Fitpass - Home</title>
+  <title>Echelon Fitpass</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,95 +19,149 @@
 
 <body id="page-top">
 
+    
   <!-- Page Wrapper -->
   <div id="wrapper">
-      
-    <!-- Right sidebar -->
-    <div class="sidenav">
-        <h5 class="sidenavText whitening">41 Bpm</h5>
-    </div>
-      
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
-
       <!-- Main Content -->
       <div id="content">
+          
+        <!-- splash screen -->
+        <div id="splash_screen" hidden>
+            <img id="splash_image" class="absolute_center" src="img/e.png">
+        </div>
+          
+        <!-- media -->
+        <div>
+            <cast-media-player></cast-media-player>
+            <script src="https://www.gstatic.com/cast/sdk/libs/caf_receiver/beta/cast_receiver_framework.js"></script>
+        </div>
           
        <!-- Left  Sidebar -->
        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark">
 
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-text mx-3">Leaderboard</div>
-      </a>
+          <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <div class="sidebar-brand-text mx-3">Leaderboard</div>
+          </a>
         
-      <li class="nav-item active">
-       <div class="btn-group" style="width: 100%;">
-          <button class="btn whitening">Friends</button>
-          <button class="btn whitening">HR Zones</button>
-          <button class="btn whitening">Echelon</button>
-        </div>
-      </li>
+          <li class="nav-item active">
+           <div class="btn-group" style="width: 100%;">
+              <button class="btn whitening">Friends</button>
+              <button class="btn whitening">HR Zones</button>
+              <button class="btn whitening">Echelon</button>
+            </div>
+          </li>
         
-      <br>
-      <div class="sidebar-heading">
-          <div class="row1" style="text-align: center;">
-              <div class="block1">
-                  <h6 class="whitening">Position</h6>
-              </div>
-              <div class="block1">
-                  <h6 class="whitening">Output</h6>
+          <br>
+          <div class="sidebar-heading">
+              <div class="row1" style="text-align: center;">
+                  <div class="block1">
+                      <h6 class="whitening">Position</h6>
+                  </div>
+                  <div class="block1">
+                      <h6 class="whitening">Output</h6>
+                  </div>
               </div>
           </div>
-      </div>
-        
-        <div class="row1" style="height: 100%; width: 100%;">
-            <div class="block1" style="height: 100%; width: 100%;">
-                <table border="1px" class="whitening" style="height: 100%; width: 100%; text-align: center;">
-                  <tr>
-                    <td> <a class="btn-circle btn-lg bg-white"></a> Sally boom
-                    <div style="display: inline-block; float: right;">16</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><a class="btn-circle btn-lg bg-white"></a> May mellow<div style="display: inline-block; float: right;">16</div></td>
-                  </tr>
-                  <tr>
-                    <td><a class="btn-circle btn-lg bg-white"></a> June balloon<div style="display: inline-block; float: right;">16</div></td>
-                  </tr>
-                  <tr>
-                    <td><a class="btn-circle btn-lg bg-white"></a> June balloon<div style="display: inline-block; float: right;">16</div></td>
-                  </tr>
-                  <tr>
-                    <td><a class="btn-circle btn-lg bg-white"></a> June balloon<div style="display: inline-block; float: right;">16</div></td>
-                  </tr>
-                </table>
+
+            <div class="row1">
+                <div class="block2">
+                    <table border="1px" class="whitening" style="height: 100%; width: 100%;">
+                      <tr>
+                        <td>
+                            <div class="row2">
+                                <div class="block4" style="margin-left: 50px;">
+                                    <a class="btn-circle btn-lg profile"></a>
+                                </div>
+                                <div class="block4">
+                                    <h6 class="leaderboardText">Sally</h6>
+                                    <p class="leaderboardTextSub">F - Oviedo</p>
+                                </div>
+                                <div class="output">16</div>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="row2">
+                                <div class="block4" style="margin-left: 50px;">
+                                    <a class="btn-circle btn-lg profile"></a>
+                                </div>
+                                <div class="block4">
+                                    <h6 class="leaderboardText">Bobby</h6>
+                                    <p class="leaderboardTextSub">F - Oviedo</p>
+                                </div>
+                                <div class="output">16</div>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="row2">
+                                <div class="block4" style="margin-left: 50px;">
+                                    <a class="btn-circle btn-lg profile"></a>
+                                </div>
+                                <div class="block4">
+                                    <h6 class="leaderboardText">Mary</h6>
+                                    <p class="leaderboardTextSub">F - Oviedo</p>
+                                </div>
+                                <div class="output">16</div>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="row2">
+                                <div class="block4" style="margin-left: 50px;">
+                                    <a class="btn-circle btn-lg profile"></a>
+                                </div>
+                                <div class="block4">
+                                    <h6 class="leaderboardText">Bary</h6>
+                                    <p class="leaderboardTextSub">F - Oviedo</p>
+                                </div>
+                                <div class="output">16</div>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="row2">
+                                <div class="block4" style="margin-left: 50px;">
+                                    <a class="btn-circle btn-lg profile"></a>
+                                </div>
+                                <div class="block4">
+                                    <h6 class="leaderboardText">LastPlace</h6>
+                                    <p class="leaderboardTextSub">F - Oviedo</p>
+                                </div>
+                                <div class="output">16</div>
+                            </div>
+                        </td>
+                      </tr>
+                    </table>
+                </div>
             </div>
-        </div>
-        
     </ul>
     
-
-            <!-- Begin Page Content -->
-            <div class="container-fluid">
-                <img src="img/e.png">
-              <div class="row">
-
-              </div>
-            <!-- /.container-fluid -->
-
+        <!-- Right sidebar -->
+        <div class="sidenav">
+            <div class="row1">
+                <div class="block2" style="text-align: center; margin-top: 12px;">
+                    <h6 class="sidenavText whitening">Heart Rate</h6>
+                    <h5 class="sidenavText whitening">41 Bpm</h5>
+                </div>
             </div>
         </div>
-      <!-- End of Main Content -->
-
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span></span>
-          </div>
+          
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+              <div class="row">
+              </div>
+            </div>
+          <!-- /.container-fluid -->
+          
         </div>
-      </footer>
-      <!-- End of Footer -->
+      <!-- End of Main Content -->
 
     </div>
     <!-- End of Content Wrapper -->
@@ -117,10 +169,6 @@
   </div>
   <!-- End of Page Wrapper -->
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>

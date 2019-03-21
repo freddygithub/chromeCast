@@ -59,10 +59,6 @@ article,aside,figcaption,figure,footer,header,hgroup,main,nav,section {
 
 body {
     
-  background-image: url(img/e.png);
-  background-repeat: no-repeat;
-  background-position: left top;
-
    margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
@@ -90,7 +86,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
 }
 
 abbr[data-original-title],abbr[title] {
@@ -10810,7 +10806,7 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #282828;
+  background-color: #080808;
 
   background-size: cover;
 }
@@ -11192,9 +11188,9 @@ a:focus {
 
 .sidebar {
   width: 6.5rem;
-  min-height: 85vh;
   position: relative;
   z-index: 5;
+  border: 1px solid white;
 }
 
 .sidebar .nav-item {
@@ -12285,14 +12281,29 @@ body.sidebar-toggled footer.sticky-footer {
 
 .row1 {
   width: 100%;
+  height: 100%;
 }
-
+.row2 {
+  height: 50px;
+  margin:0 auto;
+    color: 
+}
+.block4 {
+  height: 100%;
+  margin-left: 10px;
+  text-align: left;
+  float: left;
+}
 .block1 {
   width: 130px;
-  display: inline-block;
+  display: inline-block; 
 }
 .block2 {
-  width: 300px;
+  width: 100%;
+  height: 100%;
+}
+.block3 {
+  width: 90px;
   display: inline-block;
 }
 .spacer {
@@ -12465,11 +12476,15 @@ table {
 table tr {
     counter-increment: rowNumber;
 }
-
+table tr td{
+    padding: 15px 3px;
+}
 table tr td:first-child::before {
     content: counter(rowNumber);
     min-width: 1em;
     float: left;
+    margin-top: 15px;
+    font-size: 20px;
 }
 hr.vertical {
   width: 0px;
@@ -12477,16 +12492,18 @@ hr.vertical {
 }
 
 .sidenav {
-  height: 50px;
+  height: 80px;
   width: 150px;
   position: fixed;
   z-index: 1;
   top: 100px;
   right: 0px;
   opacity: 20%;
-  background-color: #282828;
+  background-color: #080808;
   color: green;
   margin: 10px 10px;
+  border: 1px solid white;
+  
 }
 
 .sidenav a {
@@ -12502,4 +12519,16 @@ hr.vertical {
 }
 .sidenavText{
     font: 22px;
+}
+.output{
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.leaderboardText{
+    font-size: 22px;
+}
+.leaderboardTextSub{
+    font-size: 12px;
 }
